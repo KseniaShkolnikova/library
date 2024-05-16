@@ -1,0 +1,37 @@
+﻿<Window x:Class="libraru1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:libraru1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox Text="{Binding Txt_box, Mode=TwoWay}" FontFamily="10px" TextWrapping="Wrap" x:Name="txt_box" Margin="5" VerticalAlignment="Center" Grid.Row="0" />
+            <TextBox Text="{Binding Txt_box2, Mode=TwoWay}" FontFamily="10px" TextWrapping="Wrap" x:Name="txt_box2" Margin="5" VerticalAlignment="Center" Grid.Row="1"/>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="{Binding Txt_blo, Mode=TwoWay }" FontFamily="10px" TextWrapping="Wrap" x:Name="txt_blc" Margin="5" VerticalAlignment="Center" Grid.Row="0" />
+            <TextBlock  Text="{Binding Txt_blo2, Mode=TwoWay }" FontFamily="10px" TextWrapping="Wrap" x:Name="txt_blc2" Margin="5" VerticalAlignment="Center" Grid.Row="1"/>
+        </Grid>
+        <Button Command="{Binding knopka_ser}"  Grid.Column="0"  Content="Серилизовать" VerticalAlignment="Center" Margin="5" Grid.Row="1"  Background="#FFA694F3"/>
+        <Button Command="{Binding knopka_des}"  Grid.Column="1" Content="Десерилизовать" VerticalAlignment="Center" Margin="5" Grid.Row="1" Background="#FF49D1C7" FontFamily="Ravie"/>
+    </Grid>
+</Window>

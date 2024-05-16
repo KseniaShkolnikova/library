@@ -1,0 +1,6 @@
+C:\Users\user1\source\repos\libraru1\MVVMlibri\bin\Debug\MVVMlibri.dll
+C:\Users\user1\source\repos\libraru1\MVVMlibri\bin\Debug\MVVMlibri.pdb
+C:\Users\user1\source\repos\libraru1\MVVMlibri\obj\Debug\MVVMlibri.csproj.AssemblyReference.cache
+C:\Users\user1\source\repos\libraru1\MVVMlibri\obj\Debug\MVVMlibri.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\libraru1\MVVMlibri\obj\Debug\MVVMlibri.dll
+C:\Users\user1\source\repos\libraru1\MVVMlibri\obj\Debug\MVVMlibri.pdb

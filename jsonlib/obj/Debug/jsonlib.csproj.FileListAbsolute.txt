@@ -1,0 +1,9 @@
+C:\Users\user1\source\repos\libraru1\jsonlib\bin\Debug\jsonlib.dll
+C:\Users\user1\source\repos\libraru1\jsonlib\bin\Debug\jsonlib.pdb
+C:\Users\user1\source\repos\libraru1\jsonlib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user1\source\repos\libraru1\jsonlib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user1\source\repos\libraru1\jsonlib\obj\Debug\jsonlib.csproj.AssemblyReference.cache
+C:\Users\user1\source\repos\libraru1\jsonlib\obj\Debug\jsonlib.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\libraru1\jsonlib\obj\Debug\jsonlib.csproj.CopyComplete
+C:\Users\user1\source\repos\libraru1\jsonlib\obj\Debug\jsonlib.dll
+C:\Users\user1\source\repos\libraru1\jsonlib\obj\Debug\jsonlib.pdb
